@@ -15,8 +15,8 @@ const EditPage = () => {
   };
 
   return (
-    <div>
-      <div ref={ref} style={{ width: "800px", height: "480px" }}>
+    <div className="p-3">
+      <div ref={ref} style={{ width: "800px", height: "500px" }}>
         <img src={params.get("url")} width="350px" />
         {Array(count)
           .fill(0)
