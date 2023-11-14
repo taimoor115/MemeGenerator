@@ -8,12 +8,12 @@ const Text = () => {
     <Draggable>
       {editMode ? (
         <input
-          onDoubleClick={(e) => setEditMode(false)}
+          onDoubleClick={() => setEditMode(false)}
           value={value}
           onChange={(e) => setValue(e.target.value)}
         />
       ) : (
-        <h1 onDoubleClick={(e) => setEditMode(true)}>{value} </h1>
+        <h1 onDoubleClick={() => setEditMode(true)}>{value} </h1>
       )}
     </Draggable>
   );

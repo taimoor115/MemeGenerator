@@ -10,8 +10,8 @@ const MemeCard = (props) => {
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Button
-          onClick={(e) => navigate(`/edit?url=${props.img}`)}
-          variant="primary"
+          onClick={() => navigate(`/edit?url=${props.img}`)}
+          variant="dark"
         >
           Edit
         </Button>

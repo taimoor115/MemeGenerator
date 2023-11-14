@@ -5,7 +5,7 @@ import EditPage from "./pages/EditPage";
 const App = () => {
   return (
     <div className="App">
-      <h1 className="text-danger">Meme Generator</h1>
+      <h1 style={{ textAlign: "center" }}>Meme Generator</h1>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/edit" element={<EditPage />} />
