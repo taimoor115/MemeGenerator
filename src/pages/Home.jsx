@@ -1,4 +1,4 @@
-import MemeCard from "../Components/Card";
+import MemeCard from "../Components/MemeCard";
 import { useEffect, useState } from "react";
 import { getAllMemes } from "../api/memes";
 
